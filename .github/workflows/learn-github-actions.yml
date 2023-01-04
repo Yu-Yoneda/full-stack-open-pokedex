@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Say hello
-        run: |
-          echo "Hello World!"
+        run: echo "Hello World!"
+    steps:
       - name: Now it is
-        run: |
-          date
+        run: date
+    steps:
       - name: Directory content
-          ls -l
+        run: ls -l
